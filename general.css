@@ -1,0 +1,310 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(236, 236, 236, 0.8);
+    color: #000;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    color: #fff;
+    background-color: #42a6ca;
+    position: fixed;
+    right: o;
+    top: 0;
+    left: 0;
+    width: 100%;  
+    z-index: 100;  
+}
+
+
+.logo-text {
+    font-size: 18px;
+    font-size: 600;
+}
+
+.logo-text span {
+    color: gold;
+    padding-left: 3px;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.nav-container .nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 70px;
+}
+
+.nav-container .nav-link a {
+    padding: 8px 12px;
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    transition: all 0.5s;
+}
+
+.nav-link a:hover {
+    color: #000;
+    border-bottom: 2px solid gold;
+  
+}
+
+.button a {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px;
+    color: #fff;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.login-button {
+    border-radius: 2px;
+}
+
+.login-button:hover {
+    background-color: #1981a7;
+    transition: all 0.5s;
+    color: gold;
+}
+
+.signup-button {
+    background-color: #1981a7;
+    border: none solid #1981a7;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.signup-button:hover {
+    background-color: gold;
+    color: #000;
+    transition: all 0.5s;
+}
+
+
+/*second heading*/
+
+.second-heading {
+    width: 100%;
+    line-height: 10px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #fff;
+    background: url(images/thomas-serer-r-xKieMqL34-unsplash_1.jpg) center no-repeat;
+    height: 300px;
+    text-align: center;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    box-shadow: 5px 5px 20px #cbcbcb;
+
+    
+}
+
+.second-heading h1 {
+    font-size: 3.4rem;
+    font-weight: 900;
+
+}
+
+.second-heading p {
+    padding: 50px 300px;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 300;    
+}
+
+/*hero-section*/
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+.hero-section .hero-box {
+    background-color: rgb(231, 231, 231);
+    padding: 20px 5px;
+    margin: 30px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px #cbcbcb;
+    height: 100%;
+    width: 350px;
+    text-align: center;
+
+}
+
+.hero-box span {
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+    color: #1981a7;
+}
+
+.hero-box h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+
+}
+
+.hero-box p {
+    line-height: 30px;
+    text-align: center;
+}
+
+/*herp-container*/
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(231, 231, 231);
+}
+
+
+.about-us .image-1 {
+    margin-right: 20px;
+}
+
+.image1-text h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 20px;
+    
+}
+
+.image1-text p {
+    line-height: 30px;
+    text-align: center;
+}
+
+
+/*service-section*/
+
+.service-section {
+    background-color: #42a6ca;
+    text-align: center;
+    padding: 50px 60px;
+}
+
+.service-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    font-size: .9rem;
+}
+
+.box {
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+.box span {
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.box h3 {
+    margin-bottom: 10px;
+
+}
+
+.box p {
+    line-height: 24px;
+}
+
+/*achievement-section*/
+.achievement-section {
+    padding: 40px;
+    margin-top: 50px;
+}
+.achievement-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+
+.picture-gallery img {
+    width: 80%;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    box-shadow: 3px 3px 10px #cbcbcb;
+}
+
+.picture-gallery {
+    position: relative;
+    margin-bottom: 50px;
+
+    
+}
+
+.picture-gallery h2 {
+    position: absolute;
+    bottom: 15px;
+    left: 8px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #42a6ca;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+/*client-section*/
+
+.client-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.client-section img {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #cbcbcb;
+}
+
+.testimony-section {
+    position: relative;
+}
+
+.testimony-section h2 {
+    position: absolute;
+    bottom: 34px;
+    left: 100px;
+    color: #fff;
+    font-size: 1.2rem;
+    background-color: #42a6ca;
+    padding: 8px 30px;
+    border-radius: 2px;
+    
+}
