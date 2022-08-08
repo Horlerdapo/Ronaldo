@@ -263,7 +263,7 @@ body {
 
 .picture-gallery p {
     font-size: 0.8rem;
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 10px;
     line-height: 20px;
 }
@@ -274,7 +274,7 @@ body {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    border-left: 2px solid #42a6ca;
+    border-left: 1px double #42a6ca;
 }
 
 .picture-gallery img {
@@ -309,6 +309,7 @@ body {
   align-items: center;
   padding: 20px;
   margin: 50px 30px;
+  border-right: 1px solid #1981a7;
 }
 
 .testimony {
